@@ -1,7 +1,7 @@
 //deel 1
 const age = 15;
 if (age >= 18) {
-  return console.log("Je mag naar binnen");
+  console.log("Je mag naar binnen");
 } else {
   console.log("Je bent te jong, je mag nog niet naar binnen");
 }
@@ -9,7 +9,7 @@ if (age >= 18) {
 //deel 2
 const isFemale = true;
 if (isFemale) {
-  return console.log("Dit is waar");
+  console.log("Dit is waar");
 } else {
   console.log("Dit is niet waar");
 }
@@ -17,7 +17,7 @@ if (isFemale) {
 //deel 3
 const driverStatus = "bob";
 if (driverStatus === "bob") {
-  return console.log("Je bent bob, je mag rijden");
+  console.log("Je bent bob, je mag rijden");
 } else {
   console.log("Je bent geen bob, je mag niet rijden");
 }
